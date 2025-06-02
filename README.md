@@ -2,7 +2,7 @@
 
 ![Diagram Blok Sistem](DiagramBlokSistem_Kel6.jpg)
 # IoT-Based-Remote-Health-Monitoring-Kelompok6
-Sistem ini dapat memantau detak jantung dan suhu tubuh pasien secara real-time, lalu mengirimkan data tersebut ke cloud untuk pemantauan lebih lanjut. Proyek ini dirancang untuk mempermudah monitoring kesehatan pasien tanpa harus bertatap muka langsung.
+Sistem ini dapat memantau detak jantung dan suhu tubuh pasien secara real-time, lalu mengirimkan data tersebut ke cloud untuk pemantauan lebih lanjut. Proyek ini dirancang untuk mempermudah monitoring kesehatan pasien .
 Tujuan:
 Memantau detak jantung dan suhu tubuh pasien secara real-time, mengirimkan data ke cloud untuk analisis dan notifikasi jika terjadi ketidaknormalan. Hal ini akan meningkatkan kualitas pemantauan kesehatan di rumah atau fasilitas kesehatan tanpa keterbatasan jarak.
 
