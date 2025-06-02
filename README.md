@@ -4,7 +4,7 @@
 # IoT-Based-Remote-Health-Monitoring-Kelompok6
 Sistem ini dapat memantau detak jantung dan suhu tubuh pasien secara real-time, lalu mengirimkan data tersebut ke cloud untuk pemantauan lebih lanjut. Proyek ini dirancang untuk mempermudah monitoring kesehatan pasien .
 Tujuan:
-Memantau detak jantung dan suhu tubuh pasien secara real-time, mengirimkan data ke cloud untuk analisis dan notifikasi jika terjadi ketidaknormalan. Hal ini akan meningkatkan kualitas pemantauan kesehatan di rumah atau fasilitas kesehatan tanpa keterbatasan jarak.
+Memantau detak jantung dan suhu tubuh pasien secara real-time, mengirimkan data ke cloud untuk analisis dan notifikasi jika terjadi ketidaknormalan. Hal ini akan meningkatkan kualitas pemantauan kesehatan.
 
 •	SDG 3: Good Health and Well-Being – Memastikan kehidupan yang sehat dan mendukung kesejahteraan bagi semua usia.
 
