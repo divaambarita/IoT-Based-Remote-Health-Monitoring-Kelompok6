@@ -1,4 +1,4 @@
-# Diagaram Blok Sistem
+# Diagram Blok Sistem
 
 ![Diagram Blok Sistem](DiagramBlokSistem_Kel6.jpg)
 # IoT-Based Health Monitoring System (Kelompok 6)
