@@ -1,44 +1,43 @@
 # Diagram Blok Sistem
 
 ![Diagram Blok Sistem](DiagramBlokSistem_Kel6.jpg)
-# IoT-Based Health Monitoring System (Kelompok 6)
+# IoT-Based Digital Health Monitoring System (Kelompok 6)
 
-Sistem ini menggunakan sensor detak jantung dan sensor suhu tubuh yang terhubung dengan modul ESP32 untuk memantau kondisi kesehatan pasien secara real-time. Data yang dikumpulkan akan dikirim melalui koneksi Wi-Fi ke platform cloud seperti Blynk atau Firebase, dan dapat dipantau melalui dashboard web yang menampilkan informasi detak jantung dan suhu tubuh pasien secara langsung.
+Sistem ini menggunakan sensor detak jantung dan sensor suhu tubuh yang terhubung dengan modul ESP32 untuk memantau kondisi kesehatan pasien secara digital di lokasi yang sama. Data dikirim melalui koneksi Wi-Fi ke platform cloud seperti Blynk atau Firebase, lalu ditampilkan secara real-time melalui dashboard berbasis aplikasi atau web.
 
-## Tujuan Proyek
-- Memantau detak jantung dan suhu tubuh pasien secara real-time.  
-- Mengirimkan data sensor ke platform cloud untuk analisis dan pemantauan.  
-- Memberikan visualisasi data kesehatan pasien melalui dashboard web.  
-- Membantu meningkatkan kualitas pemantauan kesehatan pasien.
+## 🎯 Tujuan Proyek
+- Memonitor detak jantung dan suhu tubuh pasien secara real-time di tempat.
+- Mengirimkan data sensor ke platform cloud melalui Wi-Fi lokal.
+- Menyediakan visualisasi digital data kesehatan menggunakan aplikasi atau dashboard.
+- Mendukung sistem pemantauan kesehatan berbasis teknologi di lingkungan lokal.
 
-## Skema Sistem
+## 🔧 Skema Sistem
 
-### Input
-- Pulse sensor (sensor detak jantung)  
-- LM35 sensor (sensor suhu tubuh)
+### Input:
+- Pulse Sensor (sensor detak jantung)
+- LM35 Sensor (sensor suhu tubuh)
 
-### Proses
-- Data sensor dikirim ke ESP32 (microcontroller).  
-- ESP32 menerima daya dari baterai atau laptop (power source).  
-- Data dikirim melalui koneksi Wi-Fi ke platform cloud.
+### Proses:
+- ESP32 membaca data dari sensor melalui pin analog.
+- Data dikirim ke cloud melalui Wi-Fi lokal.
 
-### Output
-- Data disimpan dan dianalisis di platform cloud (Blynk atau Firebase).  
-- Dashboard web menampilkan data real-time berupa detak jantung dan suhu tubuh pasien.
+### Output:
+- Data ditampilkan secara real-time di Blynk App atau Dashboard Web Firebase.
 
-## Komponen Utama
-- **ESP32:** Microcontroller dengan Wi-Fi terintegrasi.  
-- **Pulse sensor:** Sensor detak jantung.  
-- **LM35 sensor:** Sensor suhu tubuh.  
-- **Power source:** Baterai atau laptop sebagai sumber daya.  
-- **Platform cloud:** Blynk atau Firebase sebagai media pengumpulan data dan visualisasi.
+## 🧩 Komponen Utama
+- ESP32
+- Pulse Sensor
+- LM35 Sensor
+- Power Source
+- Cloud Platform: Blynk / Firebase
 
-## Manfaat dan Keterkaitan SDG
-- Mendukung **SDG 3: Good Health and Well-Being** dengan menyediakan teknologi pemantauan kesehatan yang praktis dan efisien untuk semua usia.
+## 🌱 Keterkaitan dengan SDG
+Mendukung **SDG 3: Good Health and Well-Being** dengan menyediakan sistem pemantauan kesehatan sederhana namun efektif, yang dapat digunakan secara langsung di lokasi pasien.
 
-## Cara Penggunaan
-1. Hubungkan pulse sensor dan LM35 sensor ke ESP32 sesuai skema.  
-2. Pastikan ESP32 terhubung dengan sumber daya (baterai/laptop).  
-3. Konfigurasikan ESP32 agar terkoneksi ke jaringan Wi-Fi.  
-4. Integrasikan ESP32 dengan platform Blynk atau Firebase untuk pengiriman data.  
-5. Pantau data kesehatan secara real-time melalui dashboard web.
+## 🛠️ Cara Penggunaan
+1. Hubungkan Pulse Sensor dan LM35 ke ESP32 sesuai skema kabel.
+2. Sambungkan ESP32 ke laptop atau power bank.
+3. Hubungkan ESP32 ke Wi-Fi lokal.
+4. Integrasikan ESP32 dengan platform Blynk atau Firebase.
+5. Pantau data secara real-time melalui aplikasi atau web dashboard.
+
