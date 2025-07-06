@@ -1,6 +1,3 @@
-# Diagram Blok Sistem
-
-![Diagram Blok Sistem](DiagramBlokSistem-Kel6.jpg)
 # 💓 IoT-Based Digital Health Monitoring System (Kelompok 6)
 
 Sistem ini menggunakan **pulse sensor (sensor detak jantung)** yang terhubung ke modul **ESP32** untuk memantau kondisi detak jantung pasien secara **real-time**.  
@@ -70,5 +67,15 @@ Proyek ini mendukung **Sustainable Development Goal (SDG) 3: Good Health and Wel
 6. Tekan tombol **"Mulai Mengukur"** untuk memulai proses selama 15 detik.  
 7. Amati hasil BPM dan status kesehatan yang muncul di layar.  
 8. Gunakan tombol **"Lihat Riwayat"** untuk melihat grafik detak jantung sebelumnya.
+
+# Diagram Blok Sistem
+
+![Diagram Blok Sistem](DiagramBlokSistem-Kel6.jpg)
+
+# Diagram Proses
+
+![Diagram Proses](DiagramProses-Kel6.jpg)
+
+
 
 
