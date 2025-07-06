@@ -1,6 +1,6 @@
 # Diagram Blok Sistem
 
-![Diagram Blok Sistem]DiagramBlokSistem-Kel6.jpg)
+![Diagram Blok Sistem](DiagramBlokSistem-Kel6.jpg)
 # IoT-Based Digital Health Monitoring System (Kelompok 6)
 
 Sistem ini menggunakan sensor detak jantung dan sensor suhu tubuh yang terhubung dengan modul ESP32 untuk memantau kondisi kesehatan pasien secara digital di lokasi yang sama. Data dikirim melalui koneksi Wi-Fi ke platform cloud seperti Blynk atau Firebase, lalu ditampilkan secara real-time melalui dashboard berbasis aplikasi atau web.
